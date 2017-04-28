@@ -13,6 +13,13 @@
     color: #fff;
 }
 
+.spinnerText {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 50%
+}
+
 .spinner {
     margin: auto;
     width: 70px;
@@ -21,7 +28,6 @@
     top: 40%;
     position: relative;
 }
-
     .spinner > div {
         background-color: #fff;
         height: 100%;

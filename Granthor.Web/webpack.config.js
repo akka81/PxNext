@@ -43,7 +43,7 @@ module.exports = {
             //},
             { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
             { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" },
-            { test: /\.html$/, exclude:"/node_modules/", loader: "file-loader?name=[name].[ext]&publicPath=/Build/Views/&outputPath=Views/"}
+            { test: /\.html$/, exclude:["/node_modules/","/Build/"], loader: "file-loader?name=[name].[ext]&publicPath=/Build/Views/&outputPath=Views/"}
            
         ]
     },
@@ -68,9 +68,9 @@ module.exports = {
         }),
         new ExtractTextPlugin('[name].css')//,
        // new HtmlWebpackPlugin({
-         //   template: './templates/index.html',
-           // output:'./index.html'
-       // })
+         //   template: './index.html',
+           // filename:'index.html'
+           //})
     ],
 
     devtool: 'source-map'

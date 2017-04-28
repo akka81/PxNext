@@ -87,6 +87,7 @@
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="Src\App\Views\RootView.html" />
+    <Content Include="Src\App\Views\Test1View.html" />
     <Content Include="Src\App\Views\TestView.html" />
     <Content Include="Src\Styles\style.css" />
     <Content Include="Web.config" />
@@ -124,6 +125,7 @@
     <TypeScriptCompile Include="Src\App.ts" />
     <TypeScriptCompile Include="Src\App\Components\App.Component.ts" />
     <TypeScriptCompile Include="Src\App\Components\test.component.ts" />
+    <TypeScriptCompile Include="Src\App\Components\test1.component.ts" />
     <TypeScriptCompile Include="Src\App\Services\loadingSpinner.service.ts" />
     <TypeScriptCompile Include="Src\Environment.ts" />
     <TypeScriptCompile Include="Src\main.ts" />
